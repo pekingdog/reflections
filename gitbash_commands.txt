@@ -1,0 +1,15 @@
+Change drive (In Git Bash drives are "mounted" in root )
+
+cd /E
+
+Cloning a Repository
+git clone <URL>
+
+See all commits
+git log (to end log --> press "q")
+
+Compare two commits
+git diff <commit_id_1> <commit_id_2>
+
+To get colored diff output
+git config --global color.ui auto
