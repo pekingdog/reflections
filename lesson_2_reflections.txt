@@ -4,13 +4,13 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 - the working derectory can contain files that have nothing to do with the staging area or commit. Its just the location of storage. Staging allows to kind of test the upcoming commit!?
 
+How can you use the staging area to make sure you have one commit per logical change?
+- compare staging area with repository and see the changes
 
 
-How is the staging area different from the working directory and the repository?
-What value do you think it offers?
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
