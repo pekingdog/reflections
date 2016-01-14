@@ -13,3 +13,5 @@ git diff <commit_id_1> <commit_id_2>
 
 To get colored diff output
 git config --global color.ui auto
+
+another command
