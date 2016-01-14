@@ -1,0 +1,83 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+- 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+- showing easy-to-understand versions of programming code in comparison to the (later) more advanced version
+- to test if older versions don't produce a current bug
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+- more control of whats being saved (no redindancy)
+- proper versioning (a specific version has specific described features)
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+- multiple files might have been changed to achieve a specific functionality. In case of the need to downgrade to an older version (or just taking a look at it), linked files will also be altered
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+	
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	Fill in your answer here
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+- advantage: choose the right amount of changes to justify a change/commit --> better structure ov versions...more sense
+- disadvantage: committing could be forgotten, project members don't have the newest version to work on
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+- documents most of the time will be changed seperately, so there is no need to save multiple files 
+
+How might using version control make you more confident to make changes that could break something?
+- nothing is irreversible anymore and the diff command "quickly" shows alterations to the code to find the bug easily
+
+
+### notes ###
+clone vs. copy -.-> with clone the history of changes to the directory or repository is copied.
+
+### Linux shell commands ####
+ls
+ls -a # show files beginning with a dot,ex: ".git"
+cd # jump to home directory
+
+
+### GIT commands ###
+git config --global color.ui auto #colored diff output
+
+Compare two commits, printing each line that is present in one commit but not the other.
+- git diff <commit_id_1> <commit_id_2>
+
+Make a copy of an entire Git repository, including the history, onto your own computer.
+- git clone <URL>
+
+Temporarily reset all files in a directory to their state at the time of a specific commit.
+- git checkout
+
+Show the commits made in this repository, starting with the most recent.
+- git log
+
+repository anlegen
+- git init <rep name>
+
+View the Status of a repository...which changes have been made since the last commit
+- git status
