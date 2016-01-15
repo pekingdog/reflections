@@ -1,17 +1,66 @@
+### Linux shell commands ####
+ls
+ls -a # show files beginning with a dot,ex: ".git"
+cd # jump to home directory
+
 Change drive (In Git Bash drives are "mounted" in root )
+- "cd /e" OR "cd e:"
 
-cd /E
+navigate one folder up
+- cd .. (with space between cd and the dots)
 
-Cloning a Repository
-git clone <URL>
 
-See all commits
-git log (to end log --> press "q")
+### GIT commands ###
 
-Compare two commits
-git diff <commit_id_1> <commit_id_2>
+DIFF
+Compare two commits, printing each line that is present in one commit but not the other.
+- git diff <commit_id_1> <commit_id_2>
+
+compare working directory with staging area
+- git diff
+
+compare staging area with commit_id_1
+- git diff --staged
+
 
 To get colored diff output
 git config --global color.ui auto
 
-another command
+
+
+See all commits
+git log (to end log --> press "q")
+
+Make a copy of an entire Git repository, including the history, onto your own computer.
+- git clone <URL>
+
+Temporarily reset all files in a directory to their state at the time of a specific commit.
+- git checkout
+
+Show the commits made in this repository, starting with the most recent.
+- git log
+
+repository anlegen
+- git init <rep name>
+
+View the Status of a repository...which changes have been made since the last commit
+- git status
+
+Add a file to the staging area ()
+- git add <filename in the directory>
+
+remove file from repository (but it will remain in the working  directory)
+- git reset <filename>
+
+BRANCHES
+show which branch is available and which one is master
+- git branch
+
+make a new branch
+- git branch <branchName>
+
+set the branch as master branch
+-git checkout <branchName>
+
+combine the upper two commands
+- git checkout -b <new_branch_name>

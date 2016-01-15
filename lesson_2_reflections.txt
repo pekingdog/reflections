@@ -7,15 +7,17 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change?
 - compare staging area with repository and see the changes
 
-
-
-
-
-
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+- Branches help if one would want to add special features that are experimental and maybe even don't make it into the final code.
+- also giid if you develop a new features
+- if ou correct a bug (thats what mike wales said....sounds weird to me)
+- master branch always works, other branches can be used for testing new functionality
+- branches leep things organizedwhen working with others
+
 
 How do the diagrams help you visualize the branch structure?
+- structure can become quite complex the more branches exist. Therefore diagrams can help to understand inheritance and reachability
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
