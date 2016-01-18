@@ -1,5 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
-- .git folder will be created where all the (old and new) information will be stored
+- .git folder will be created where all the (old and new) data will be stored
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 - the working derectory can contain files that have nothing to do with the staging area or commit. Its just the location of storage. Staging allows to kind of test the upcoming commit!?
@@ -11,7 +11,7 @@ What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 - Branches help if one would want to add special features that are experimental and maybe even don't make it into the final code.
 - also giid if you develop a new features
-- if ou correct a bug (thats what mike wales said....sounds weird to me)
+- if u correct a bug (thats what mike wales said....sounds weird to me)
 - master branch always works, other branches can be used for testing new functionality
 - branches leep things organizedwhen working with others
 
@@ -29,5 +29,5 @@ manually?
 	* nothing can be forgotton
 	
 - cons
-	* if there are conflicts the merge coud take a while
+	* if there are conflicts the merge could take a while
 	

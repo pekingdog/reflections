@@ -5,7 +5,6 @@ was introduced?
 
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
-
 - showing easy-to-understand versions of programming code in comparison to the (later) more advanced version
 - to test if older versions don't produce a current bug
 
@@ -13,7 +12,7 @@ What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-- more control of whats being saved (no redindancy)
+- more control of whats being saved (no redundancy)
 - proper versioning (a specific version has specific described features)
 
 
