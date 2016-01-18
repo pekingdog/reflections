@@ -55,29 +55,3 @@ How might using version control make you more confident to make changes that cou
 ### notes ###
 clone vs. copy -.-> with clone the history of changes to the directory or repository is copied.
 
-### Linux shell commands ####
-ls
-ls -a # show files beginning with a dot,ex: ".git"
-cd # jump to home directory
-
-
-### GIT commands ###
-git config --global color.ui auto #colored diff output
-
-Compare two commits, printing each line that is present in one commit but not the other.
-- git diff <commit_id_1> <commit_id_2>
-
-Make a copy of an entire Git repository, including the history, onto your own computer.
-- git clone <URL>
-
-Temporarily reset all files in a directory to their state at the time of a specific commit.
-- git checkout
-
-Show the commits made in this repository, starting with the most recent.
-- git log
-
-repository anlegen
-- git init <rep name>
-
-View the Status of a repository...which changes have been made since the last commit
-- git status

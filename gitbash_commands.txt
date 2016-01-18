@@ -16,13 +16,17 @@ DIFF
 Compare two commits, printing each line that is present in one commit but not the other.
 - git diff <commit_id_1> <commit_id_2>
 
-compare working directory with staging area
+compare working directory with current commit
 - git diff
 
-compare staging area with commit_id_1
-- git diff --staged
+compare staging area with repository
+- git diff --staged [commit_id] #without commit_id it'll check against the currently checked out commit
+
+Comparing a commit to its parent
+- git show commit_id
 
 
+GENERAL/CONFIG
 To get colored diff output
 git config --global color.ui auto
 
@@ -39,6 +43,9 @@ Temporarily reset all files in a directory to their state at the time of a speci
 
 Show the commits made in this repository, starting with the most recent.
 - git log
+
+show branch graph
+- git log --graph [--oneline] [branch1] [branch...n]
 
 repository anlegen
 - git init <rep name>
@@ -64,3 +71,10 @@ set the branch as master branch
 
 combine the upper two commands
 - git checkout -b <new_branch_name>
+
+
+
+MERGING
+- git merge #will also include the currently checked-out branch in the merged version 
+- git merge <branch2> <branch3> #combine branch2 and branch3 and branch1, if branch1 is checked out
+!!! For this reason, you should always checkout one of the two branches you’re planning on merging before doing the merge.!!!
